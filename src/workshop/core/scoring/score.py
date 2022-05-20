@@ -5,6 +5,7 @@ import os
 from azureml.core.model import Model
 import mlflow
 # Called when the service is loaded
+# test
 def init():
     global model
     # Get the path to the deployed model file and load it
